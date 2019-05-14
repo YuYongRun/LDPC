@@ -6,3 +6,4 @@ LDPC error rate simulation using MATLAB, with multi-functions.
 4.	I use x = uG = u [I P] to encode, because this is a general method, valid for ALL kinds of codes. Parity-check matrix P is simply extracted from the sparse matrix H by Gaussian elimination.
 5.	Are you interested in counting the cycles in the H matrix? Well, I write programs to count the number of the length-6, 8, and 10 cycles in the H matrix. 
 6.	You can see the PDF file for BLER performance comparisons between all kinds of LDPC codes and polar codes of length 2000 and rate 0.5 in the BPSK-AWGN channel.
+If you find any problems in my codes, please contact me 498699845@qq.com
