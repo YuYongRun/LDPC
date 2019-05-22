@@ -11,7 +11,7 @@ tic
 for i_run = 1 : max_runs
     if  mod(i_run, max_runs/resolution) == 1
         disp(' ')
-        disp([conste_name ' Simualtion Running = ' num2str(i_run) ' (*4).'])
+        disp([conste_name ' Simualtion Running = ' num2str(i_run)])
         disp(['N = ' num2str(N) ', K = ' num2str(K) ', Max Iteration Number = ' num2str(max_iter) '. ' 'H density = ' num2str(100 * sum(vn_degree)/M/N) '%.']);
         disp(' ');
         disp('VN Degree Distribution: ');
